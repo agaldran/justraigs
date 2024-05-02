@@ -9,7 +9,7 @@ Once the imaging part of the data is in-place, we also need to manipulate labels
 which consists on combining information from multiple annotators of different skills into a tailored label smoothing scheme 
 that allows us to leverage the available large collection of fundus images, instead of simply discarding samples with inter-rater variability. 
 There are two sub-tasks in our problem, glaucoma screening and glaucoma justification. The way we manipulate labels for each case is explained 
-in our short paper ([here](here.pdf)) and illustrated in two notebooks, `data_splitting_rg.ipynb` and `data_splitting_features.ipynb`. 
+in our short paper ([https://github.com/agaldran/justraigs/blob/main/paper/ISBI24_paper_1635.pdf](here.pdf)) and illustrated in two notebooks, `data_splitting_rg.ipynb` and `data_splitting_features.ipynb`. 
 After understanding our strategy, you can use the scripts `split_training_data.py` and `split_training_data_features.py` to apply it and generate 
 several `.csv` files that you will need for five-fold model training. The logic to handle these labels is also partially implemented in `utils/data_load.py`.
 
