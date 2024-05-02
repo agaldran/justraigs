@@ -1,0 +1,6 @@
+pillow
+SimpleITK
+imagecodecs
+numpy
+torchvision
+scikit-image
